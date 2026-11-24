@@ -1,14 +1,12 @@
 class Luxdmx < Formula
   desc "Zero-driver LAN lighting CLI & MCP server for Art-Net 4 and ANSI E1.31 sACN"
   homepage "https://github.com/raydeoliveira/luxdmx"
-  version "0.1.0"
+  url "https://github.com/raydeoliveira/luxdmx/releases/download/v0.1.0/luxdmx-0.1.0-macos-arm64.tar.gz"
+  sha256 "54bf040bb0f9f4e14e19784ba3f33546bf1cba8516bfeb59ef43d9d202936bca"
   license :cannot_represent
 
   depends_on arch: :arm64
   depends_on macos: :sonoma
-
-  url "https://github.com/raydeoliveira/luxdmx/releases/download/v0.1.0/luxdmx-0.1.0-macos-arm64.tar.gz"
-  sha256 "54bf040bb0f9f4e14e19784ba3f33546bf1cba8516bfeb59ef43d9d202936bca"
 
   def install
     bin.install "luxdmx"
