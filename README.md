@@ -1,6 +1,6 @@
 # LuxDMX
 
-> **Product Hub:** [raymonddeoliveira.com/software#luxdmx](https://www.raymonddeoliveira.com/software#luxdmx) · **Release Downloads:** [GitHub Releases](https://github.com/raydeoliveira/luxdmx/releases/tag/v0.1.0) · **Official MCP Registry:** [io.github.raydeoliveira/luxdmx](https://registry.modelcontextprotocol.io/v0.1/servers?search=raydeoliveira/luxdmx) · **Free Core:** `brew tap raydeoliveira/tap && brew install luxdmx`
+> **Product Hub:** [raymonddeoliveira.com/software#luxdmx](https://www.raymonddeoliveira.com/software#luxdmx) · **Buy LuxDMX Pro ($29):** [Polar Checkout](https://buy.polar.sh/polar_cl_Gk5jd6VHJSUwKgvf186L8EyTDH8s4OsNmQOvG491AaB) · **Verified MCP:** [Glama](https://glama.ai/mcp/servers/raydeoliveira/luxdmx) · **Official MCP Registry:** [io.github.raydeoliveira/luxdmx](https://registry.modelcontextprotocol.io/v0.1/servers?search=raydeoliveira/luxdmx) · **Free Core:** `brew tap raydeoliveira/tap && brew install luxdmx`
 
 Zero-driver macOS LAN lighting CLI and stdio MCP server that discovers and controls Art-Net 4 (UDP `6454`) and ANSI E1.31 sACN (UDP `5568`) fixtures with CIE Planckian/`duv` color science, Lee/Rosco gel presets, multi-universe atomic scenes, pre-write snapshots, and 15-second auto-revert — in one **771 KB** zero-dependency native binary.
 
@@ -139,6 +139,6 @@ Every command accepts `--json` (before or after the subcommand) and emits `{"sch
 
 ## License & Support
 
-- Commercial binary distribution is licensed under [LICENSE](LICENSE) (Free Core + `$29` one-time Perpetual Pro license via Polar.sh, valid for up to 3 personal Macs, offline-capable with zero telemetry).
+- Commercial binary distribution is licensed under [LICENSE](LICENSE) (Free Core + `$29` one-time Perpetual Pro license via [Polar.sh](https://buy.polar.sh/polar_cl_Gk5jd6VHJSUwKgvf186L8EyTDH8s4OsNmQOvG491AaB), valid for up to 3 personal Macs, offline-capable with zero telemetry).
 - Security & vulnerability disclosure: [SECURITY.md](SECURITY.md).
 - AI Agent integration docs: [SKILL.md](SKILL.md) and [server.json](server.json).

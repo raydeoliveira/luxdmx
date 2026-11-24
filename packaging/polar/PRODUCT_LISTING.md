@@ -41,9 +41,9 @@ Control studio and stage DMX lights over Art-Net 4 and sACN directly from your M
 
 ---
 
-## Seller Launch Checklist (5 Minutes on Polar.sh)
-1. Confirm organization `raydeoliveira` (`e00cbb5a-4317-4193-950c-10f7ec4dcd90`) on `polar.sh`.
-2. Create product **LuxDMX Pro** ($29 one-time).
-3. Attach Benefit 1 (**Downloadables**): upload `dist/luxdmx-0.1.0-macos-arm64.tar.gz` and `dist/SHA256SUMS.txt`.
-4. Attach Benefit 2 (**License Keys**): prefix `LUXD`, max `3` activations, no expiration.
-5. Paste the generated checkout link into `README.md`, `packaging/homebrew/luxdmx.rb`, and `raymonddeoliveira.com/software`.
+## Published Storefront & Directory Links
+- **Checkout Link ($29 one-time):** https://buy.polar.sh/polar_cl_Gk5jd6VHJSUwKgvf186L8EyTDH8s4OsNmQOvG491AaB
+- **Polar Product ID:** `1fed2f57-6ec5-40f8-93ae-e883b329caa3`
+- **Polar Benefit — License Keys (`LUXD`):** max `3` activations, perpetual (no expiration)
+- **Polar Benefit — File Downloads:** `luxdmx-0.1.0-macos-arm64.tar.gz`, `luxdmx-0.1.0-macos-arm64.mcpb`, `SHA256SUMS.txt`
+- **Glama Verified MCP Listing:** https://glama.ai/mcp/servers/raydeoliveira/luxdmx
