@@ -1,0 +1,31 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.raydeoliveira/luxdmx",
+  "title": "LuxDMX",
+  "description": "Zero-driver Art-Net 4 & E1.31 sACN LAN lighting CLI and MCP server with snapshots & rollback.",
+  "version": "0.1.0",
+  "websiteUrl": "https://github.com/raydeoliveira/luxdmx",
+  "repository": {
+    "url": "https://github.com/raydeoliveira/luxdmx",
+    "source": "github"
+  },
+  "packages": [
+    {
+      "registryType": "mcpb",
+      "identifier": "https://github.com/raydeoliveira/luxdmx/releases/download/v0.1.0/luxdmx-0.1.0-macos-arm64.mcpb",
+      "version": "0.1.0",
+      "fileSha256": "7716971997c19d441c383e96d059c0eea95f473511d79664f838a0f26a0d85fe",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "LUXDMX_LICENSE_KEY",
+          "description": "Optional Polar.sh Pro license key unlocking live gels, duv tint, multi-emitter & scenes.",
+          "isRequired": false,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}

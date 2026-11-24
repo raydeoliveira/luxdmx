@@ -1,0 +1,17 @@
+# LuxDMX (`luxdmx`)
+
+> Zero-driver macOS LAN lighting CLI and stdio MCP server for Art-Net 4 (UDP 6454) and ANSI E1.31 sACN (UDP 5568) with CIE Planckian/duv color math, Lee/Rosco gels, multi-universe atomic scenes, pre-write snapshots, and timed auto-revert.
+
+## Capabilities
+- **Discovery & Live Monitor**: `probe` (`ArtPoll` + passive UDP 6454/5568 sniff), bounded `watch` delta monitor, `fixtures` (10 cinema profiles: Aputure, ARRI, Astera, WLED, generic), `gels` (16 Lee/Rosco presets).
+- **Color Science & Safe Output**: CIE 1931/1960 UCS Planckian CCT + `duv` green/magenta tint solver (`solve`), single-universe `apply` (`probe -> snapshot -> dry-run -> apply -> confirm/auto-revert`), multi-universe atomic `scene`, deterministic `restore` with E1.31 `Stream_Terminated` (`0x40`).
+- **AI-Agent Native**: `--describe` JSON capability manifest, `--json` structured stdout (`schema_version: 1`), exit codes `0..5`/`130`, fail-closed non-TTY guard, and built-in JSON-RPC 2.0 `luxdmx mcp`.
+
+## Install
+- Homebrew: `brew install raydeoliveira/tap/luxdmx`
+- Agent Skill: `SKILL.md` in repository root (`skills.sh` compatible)
+- MCP Manifest: `server.json` (`io.github.raydeoliveira/luxdmx`)
+
+## Pricing
+- Free Core: `probe`, `fixtures`, `gels`, `solve`, raw single-universe `apply`, `--dry-run`, `watch`, `restore`, read-only/dry-run MCP tools.
+- Pro License ($29 one-time via Polar.sh): live `--gel`, `--duv`, multi-emitter `--fixture` output, multi-universe atomic `scene` execution, and Pro MCP write tools.
