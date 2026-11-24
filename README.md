@@ -1,6 +1,6 @@
 # LuxDMX
 
-> **Product Hub:** [raymonddeoliveira.com/software](https://www.raymonddeoliveira.com/software#luxdmx) · **Polar Storefront:** [polar.sh/raymond-de-oliveira](https://polar.sh/raymond-de-oliveira) · **Verified MCP:** [Glama](https://glama.ai/mcp/servers/raydeoliveira/luxdmx) · **Free Core:** `brew tap raydeoliveira/tap && brew install luxdmx`
+> **Product Hub:** [raymonddeoliveira.com/software#luxdmx](https://www.raymonddeoliveira.com/software#luxdmx) · **Release Downloads:** [GitHub Releases](https://github.com/raydeoliveira/luxdmx/releases/tag/v0.1.0) · **Official MCP Registry:** [io.github.raydeoliveira/luxdmx](https://registry.modelcontextprotocol.io/v0.1/servers?search=raydeoliveira/luxdmx) · **Free Core:** `brew tap raydeoliveira/tap && brew install luxdmx`
 
 Zero-driver macOS LAN lighting CLI and stdio MCP server that discovers and controls Art-Net 4 (UDP `6454`) and ANSI E1.31 sACN (UDP `5568`) fixtures with CIE Planckian/`duv` color science, Lee/Rosco gel presets, multi-universe atomic scenes, pre-write snapshots, and 15-second auto-revert — in one **771 KB** zero-dependency native binary.
 
