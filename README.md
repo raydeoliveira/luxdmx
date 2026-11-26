@@ -93,6 +93,13 @@ Real output:
 ```
 
 ### 3. Dry-Run Preview, Live Apply, Multi-Universe Scene & MCP
+
+With LuxDMX installed, add the [agent instructions](SKILL.md) to your project for fixture lookup and DMX scene previews.
+
+```sh
+npx skills add raydeoliveira/luxdmx
+```
+
 ```bash
 # Preview slot diff without sending packets or touching snapshots (Free):
 luxdmx apply --proto sacn --universe 1 --cct 4600 --dim 50 --dry-run --json
